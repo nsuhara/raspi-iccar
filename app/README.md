@@ -48,5 +48,5 @@ Dockerfiles/docker_compose_up.sh
 
 ```command_line.sh
 source config/{environment}
-flask run
+flask run --host=0.0.0.0 --port=5000
 ```
